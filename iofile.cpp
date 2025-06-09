@@ -10,4 +10,9 @@ int main ()
     ofstream outfile;
     outfile.open("contohfile.txt");
     cout << ">= Menulis file, \'q\' untuk keluar "<< endl;
+    // unlimited loop untuk menulis
+    while (true)
+    {
+        cout << "-";
+    }
 }
