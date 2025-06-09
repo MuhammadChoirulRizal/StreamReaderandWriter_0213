@@ -1,0 +1,4 @@
+rizal
+Tarakancd "d:\Pemograman Dasar\Pertemuan 13\" ; if ($?) { g++ ioFileWithPath.cpp -o ioFileWithPath } ; if ($?) { .\ioFileWithPath }
+cd "d:\Pemograman Dasar\Pertemuan 13\" ; if ($?) { g++ ioFileWithPath.cpp -o ioFileWithPath } ; if ($?) { .\ioFileWithPath }
+rizal

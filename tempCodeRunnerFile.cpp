@@ -6,12 +6,9 @@ using namespace std;
 int main ()
 {
     string baris;
-    string NamaFile;
-
-    cout << "enter File Nama ";
     // membuat obyek output file stream dalam mode menulis
     ofstream outfile;
-    outfile.open(NamaFile +".txt");
+    outfile.open("contohfile.txt");
     cout << ">= Menulis file, \'q\' untuk keluar "<< endl;
     // unlimited loop untuk menulis
     while (true)
@@ -30,7 +27,7 @@ int main ()
     // membuat obyek input file stream dalam mode membaca
     ifstream infile;
     // membuka file
-    infile.open(NamaFile +".txt");
+    infile.open("contohfile.txt");
     cout << endl
     << ">= membuka dan membaca file " << endl;
     // jika file ada maka
