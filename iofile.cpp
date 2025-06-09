@@ -18,7 +18,7 @@ int main ()
         getline(cin,baris);
         // loop akan berhenti jika anda memasukkan q
         if (baris =="q")
-       
+        break;
 
     }
 }
