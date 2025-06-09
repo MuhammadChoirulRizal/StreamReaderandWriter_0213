@@ -19,6 +19,8 @@ int main ()
         // loop akan berhenti jika anda memasukkan q
         if (baris =="q")
         break;
+        // menulis dan memasukkan nilai dari baris ke dalam file 
+        outfile <<  baris << endl;
 
     }
 }
