@@ -14,5 +14,8 @@ int main ()
     while (true)
     {
         cout << "-";
+        // mendapatkkan setiap karakter dalam satu baris
+        getline(cin,baris);
+        
     }
 }
